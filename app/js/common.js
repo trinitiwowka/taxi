@@ -1,5 +1,7 @@
-$(function() {
+$(document).ready((function() {
 
-	// Пользовательские функции
+    $("#scroll").click(function() {
+        $("body").animate({scrollTop: $("#form-wrap").offset().top});
+    });
 
-});
+}));

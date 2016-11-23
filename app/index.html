@@ -21,14 +21,14 @@
 
 <body>
 
-	<header class="header hidden-xs">
+	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
-					<p>Подключаем к любым заказам</p>
+				<div class="col-sm-6 col-xs-8">
+					<p class="connect">Подключаем к любым заказам</p>
 				</div>
-				<div class="col-sm-6">
-					<p>Наша комиссия</p>
+				<div class="col-sm-6 col-xs-4">
+					<p class="comission">Наша комиссия</p>
 				</div>
 			</div>
 		</div>
@@ -39,10 +39,10 @@
 		<div class="section-black">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-3">
 						<div class="logo" style="background-image: url(img/uber.jpg);">&nbsp;</div>
 					</div>
-					<div class="col-sm-4 col-xs-7">
+					<div class="col-sm-4 col-xs-6">
 						<div class="title">
 							UBER
 						</div>
@@ -59,10 +59,10 @@
 		<div class="section-white">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-3">
 						<div class="logo" style="background-image: url(img/gett.jpeg);">&nbsp;</div>
 					</div>
-					<div class="col-sm-4 col-xs-7">
+					<div class="col-sm-4 col-xs-6">
 						<div class="title">
 							 Gett
 						</div>
@@ -79,13 +79,13 @@
 		<div class="section-black">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-3">
 						<div class="logo" style="background-image: url(img/yandex.png);">
 							&nbsp;
-							<!--<img src="img/yandex.png" alt="yandex">-->
+							<!--<img src="img/yadex.png" alt="yandex">-->
 						</div>
 					</div>
-					<div class="col-sm-4 col-xs-7">
+					<div class="col-sm-4 col-xs-6">
 						<div class="title">
 							Яндекс
 						</div>
@@ -102,10 +102,10 @@
 		<div class="section-white">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-3">
 						<div class="logo" style="background-image: url(img/up.png);">&nbsp;</div>
 					</div>
-					<div class="col-sm-4 col-xs-7">
+					<div class="col-sm-4 col-xs-6">
 						<div class="title">
 							Биржа такси
 						</div>
@@ -123,10 +123,10 @@
 		<div class="section-black">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2 col-xs-2">
+					<div class="col-sm-2 col-xs-3">
 						<div class="logo" style="background-image: url(img/1000.png);">&nbsp;</div>
 					</div>
-					<div class="col-sm-4 col-xs-7">
+					<div class="col-sm-4 col-xs-6">
 						<div class="title">
 							1000 такси
 						</div>
@@ -141,6 +141,10 @@
 		</div>
 
 	</section>
+
+	<div class="scroll-wrap hidden-md hidden-lg">
+		<a href="#form-wra" id="scroll" class="scroll">Подключится</a>
+	</div>
 
 	<section class="features">
 
@@ -199,7 +203,7 @@
 		
 	</section>
 
-	<div class="form-wrap">
+	<div class="form-wrap" id="form-wrap">
 
 		<h2 class="form-title">Подключение к заказам</h2>
 		<form id="form">
