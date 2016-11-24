@@ -80,19 +80,6 @@ a {
     margin-bottom: 5px;
     font-weight: bold; }
 
-.scroll-wrap {
-  text-align: center; }
-
-.scroll {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 40px 0;
-  background-color: #4cc8de;
-  color: #fff !important;
-  text-decoration: none;
-  text-transform: uppercase; 
-   width: 320px;}
-
 .form-title {
   margin-top: 0;
   text-align: center; }
@@ -106,13 +93,44 @@ a {
   padding: 6px 10px;
   margin-bottom: 5px; }
 
-.submit {
+.submit, .form-popup .popup-submit {
   width: 100%;
   padding: 10px;
   border: none;
   margin-top: 7px;
   background-color: #4cc8de;
   color: #fff; }
+
+.form-popup {
+  width: 320px;
+  padding: 25px;
+  background-color: #f1f1f1;
+  border: 1px solid #cdcdd3;
+  position: fixed;
+  margin-left: -160px;
+  top: 35%;
+  left: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 100px 2000px;
+          box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 100px 2000px;
+  z-index: 99999;
+  display: none; }
+  .form-popup .popup-submit {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase; }
+
+.scroll-wrap {
+  text-align: center; }
+
+.scroll {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 40px 0;
+  background-color: #4cc8de;
+  color: #fff !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 320px; }
 
 .logo {
   background-size: contain;
@@ -193,20 +211,17 @@ a {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .feature-item {
-    margin-bottom: 20px; } 
-	.section-black {
+    margin-bottom: 20px; }
+  .section-black {
     background-color: #000;
     color: #fff;
     height: 80px;
-    line-height: 80px;
-}
-.section-white {
-  background-color: #fff;
-  color: #000;
-  height: 80px;
-  line-height: 80px; }
-	}
-	
+    line-height: 80px; }
+  .section-white {
+    background-color: #fff;
+    color: #000;
+    height: 80px;
+    line-height: 80px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {

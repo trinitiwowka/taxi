@@ -81,19 +81,6 @@ a
 		margin-bottom: 5px
 		font-weight: bold
 
-.scroll-wrap
-	text-align: center
-
-.scroll
-	display: inline-block
-	padding: 10px 20px
-	margin: 40px 0
-	background-color: #4cc8de
-	color: #fff !important
-	text-decoration: none
-	text-transform: uppercase
-    width: 320px
-
 .form-title
 	margin-top: 0
 	text-align: center
@@ -113,6 +100,38 @@ a
 	margin-top: 7px
 	background-color: #4cc8de
 	color: #fff
+
+.form-popup
+	width: 320px
+	padding: 25px
+	background-color: #f1f1f1
+	border: 1px solid #cdcdd3
+	position: fixed
+	margin-left: -160px
+	top: 35%
+	left: 50%
+	box-shadow: rgba(0,0,0,.7) 0px 0px 100px 2000px
+	z-index: 99999
+	display: none
+	.popup-submit
+		display: inline-block
+		text-align: center
+		text-transform: uppercase
+		@extend .submit
+
+
+.scroll-wrap
+	text-align: center
+
+.scroll
+	display: inline-block
+	padding: 10px 20px
+	margin: 40px 0
+	background-color: #4cc8de
+	color: #fff !important
+	text-decoration: none
+	text-transform: uppercase
+	width: 320px
 
 .logo
 	background-size: contain
