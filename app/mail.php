@@ -6,7 +6,7 @@
     $skill = $_POST['skill'];
     $phone = $_POST['phone'];
 
-    $admin_email="trinitiwowka@gmail.com";
+    $admin_email="mkoltunm@yandex.ru";
     $message .= "<tr>" .
         "<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Имя</b></td>" .
         "<td style='padding: 10px; border: #e9e9e9 1px solid;'>$name</td>" .
@@ -24,7 +24,7 @@
         "<td style='padding: 10px; border: #e9e9e9 1px solid;'>$auto</td>" .
         "</tr>".
         "<tr>" .
-        "<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Стаж вожденич</b></td>" .
+        "<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Стаж вождения</b></td>" .
         "<td style='padding: 10px; border: #e9e9e9 1px solid;'>$skill</td>" .
         "</tr>".
         "<tr>" .
